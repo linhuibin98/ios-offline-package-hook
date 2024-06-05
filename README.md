@@ -1,4 +1,4 @@
-# offlineAjaxHookBridge
+# ios-offline-package-hook
 
 Fork from https://github.com/karosLi/KKJSBridge/tree/master/KKJSBridge
 
