@@ -1,0 +1,35 @@
+{
+    "name": "ios-offline-package-hook",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.umd.js",
+    "umd": "./dist/index.umd.js",
+    "scripts": {
+        "lint:fix": "prettier --write ./src/**",
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+    "license": "MIT",
+    "repository": {},
+    "keywords": [],
+    "files": [
+        "dist/"
+    ],
+    "devDependencies": {
+        "@rollup/plugin-buble": "^0.21.0",
+        "@rollup/plugin-commonjs": "^11.0.1",
+        "@rollup/plugin-typescript": "^3.0.0",
+        "buble": "^0.19.8",
+        "is-relative-url": "^3.0.0",
+        "prettier": "^2.4.1",
+        "rollup": "^2.0.0",
+        "rollup-plugin-banner": "^0.2.1",
+        "rollup-plugin-uglify": "^6.0.4",
+        "tslib": "^1.10.0",
+        "typescript": "^5.4.5"
+    },
+    "browserslist": [
+        "iOS >= 10.0"
+    ],
+    "packageManager": "pnpm@8.15.8"
+}
